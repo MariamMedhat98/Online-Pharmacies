@@ -1,0 +1,71 @@
+/*------------------------ categories -----------------------*/
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*--------------- pages --------------------*/
+.supdata2 .man-banner{
+    width: 100%;
+    margin: 2% auto 0 -1%;
+}
+.man-ban img{
+    width: 80%;
+    margin: 1% 0px 1% 3%;
+}
+
+/*--------------- add & edit --------------------*/
+.add, .edit{
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    width: 53%;
+    margin: 4.5% 14% 4% 0%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.item{
+    font-size: 33px;
+    text-shadow: 1px 0px 1.5px #093c61;
+}
+.item_select{
+    width: 40%;
+    margin-left: 5%;
+    outline: none;
+    height: 35px;
+}
+
+.edit, .add{
+    padding: 2%;
+}
+.edit label, .add label{
+    font-size: 20px;
+    line-height: 55px;
+    text-shadow: 1px 0px 2px #093c61;
+}
+.edit input[type='text'], .add input[type='text']{
+    width: 55%;
+    line-height: 32px;
+    outline: none;
+}
+.categ_select{
+    width: 36%;
+    outline: none;
+    margin-left: 12%;
+    height: 60%;
+}
+.edit .btn_edit, .add .btn_add {
+    background-color: #066cb1;
+    font: 27px/40px Georgia, "Times New Roman", Times, serif;
+    width: 35%;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 27%;
+    margin-bottom: 1%;
+    font-weight: bolder;
+}
+.edit .btn_edit:hover, .add .btn_add:hover{
+	background-color: #0589e0;
+}

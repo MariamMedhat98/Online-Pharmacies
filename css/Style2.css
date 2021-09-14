@@ -1,0 +1,175 @@
+/*------------------------ pharmacies -----------------------*/
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*------------ Header -----------*/
+.sup-content{
+  margin: 0 13% -60px 13%;
+}
+.logo-img{
+    margin: 2% 0% 0% 2%;
+    width: 12%;
+}
+.control_logo{
+    margin: -4% 0 2% 2%;
+    width: 14%;
+}
+.content .ser-form{
+    display: inline-block;
+    margin-left: 21%;
+    width: 62%;
+    line-height: 38px;
+}
+.content .ser-form .form{
+    width: 60%;
+    border-radius: 8px;
+    outline: 0px;
+    color: #015a8d;
+}
+.content .ser-form .btn2{
+    width: 12%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding: 0px;
+    color: #fff;
+	background-color: #066cb1;
+	border-radius: 5px;
+    border: 0;
+    text-shadow: -3px 0 3px #07304d;
+    font: 17px/40px Georgia, "Times New Roman", Times, serif;
+}
+.content .ser-form .btn2:hover{
+    border-radius: 5px;
+    text-shadow: -3px 0 3px #07304d;
+	background-color: #0589e0;
+}
+.content .ser-form .control_btn{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 3%;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 186%;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*--------------- fixed --------------------*/
+.supdata1{
+    width: 20%;
+    height: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 4% 0px 0% 10%;
+    padding: 1%;
+}
+i{
+    cursor: pointer;
+}
+.supdata1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.last{
+    border: none;
+    padding-bottom: 80%;
+}
+.supdata1 ul .inner{
+    background-color: rgb(247, 247, 247);
+    padding-left: 1em;
+    display: none;
+}
+.supdata1 ul .inner li{
+    list-style: none;
+    border-bottom: 1px solid rgba(21,27,57,.04);
+    padding: 5px 0;
+    margin: 0;
+}
+li{
+    margin: 0 0 1% 0;
+    border-bottom: 1px solid rgba(21,27,57,.04);
+    padding: 2% 0 5% 0;
+    cursor: pointer;
+}
+.supdata1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 4%;
+}
+
+/*----------------- data slider -------------------------*/
+.supdata2{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2%;
+}
+.slider{
+    width: 80%;
+    margin: 3% auto 0px 2%;
+}
+.carousel{
+    height: 30%;
+}
+.supdata2 .carousel-inner img{
+    margin: 0px;
+    width: 100%;
+}
+.phar-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    width: 87%;
+}
+.supdata2 .data1 .card{
+    width: 100%;
+    border: 0px;
+}
+.supdata2 .phar-content img{
+    margin: 10px auto;
+    object-fit: cover;
+}
+.supdata2 .card-data{
+    width: 20%;
+}
+.supdata2 .card-data:hover{
+    transform: none;
+}
+.supdata2 .card h3{
+    text-align: center;
+    font-size: 18px;
+}
+.supdata2 .card-btn{
+    margin: 0px 11%;
+    font-size: 74%;
+    line-height: 185%;
+}
+.card-btn{
+    color: #fff;
+	background-color: #066cb1;
+	border-radius: 5px;
+    border: 0;
+    text-shadow: -3px 0 3px #07304d;
+    font: 15px/40px Georgia, "Times New Roman", Times, serif;
+}
+.card-btn:hover{
+    border-radius: 5px;
+    text-shadow: -3px 0 3px #07304d;
+	background-color: #0484da;
+}
